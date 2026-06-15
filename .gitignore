@@ -1,0 +1,33 @@
+# Calibration data — tied to a specific physical setup,
+# not meaningful on other machines.
+room_calibration.json
+room_calibration.audit.json
+
+# Session recordings — data, not code.  Can be large.
+sessions/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (in case you use venv locally)
+venv/
+.venv/
+env/
+.env/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS noise
+Thumbs.db
+.DS_Store
+
+# Local notes you might keep that shouldn't be public
+TODO.txt
+notes.txt
+*.local.md
